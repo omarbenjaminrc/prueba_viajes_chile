@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: black;
     color: white;
@@ -6,6 +10,7 @@ body{
 .card{
     color: white;
 }
+
 i{
     color: white;
 }

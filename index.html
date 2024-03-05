@@ -145,7 +145,7 @@
             <h3 class="my-4 text-center">DESTACADOS</h3>
             <div class="row row-cols-1 row-cols-md-4 g-4">
                 <div class="col">
-                    <div class="card" style="width: 16rem;">
+                    <div class="card">
                         <img src="./assets/img/card1.jpg" class="card-img-top" alt="...">
                         <div class="card-body bg-info">
                             <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
@@ -156,7 +156,7 @@
                 </div>
 
                 <div class="col">
-                    <div class="card" style="width: 16rem;">
+                    <div class="card">
                         <img src="./assets/img/card2.jpg" class="card-img-top" alt="...">
                         <div class="card-body bg-info">
                             <h5 class="card-title">Consectetur adipiscing elit</h5>
@@ -167,7 +167,7 @@
 
                 </div>
                 <div class="col">
-                    <div class="card" style="width: 16rem;">
+                    <div class="card">
                         <img src="./assets/img/card3.jpg" class="card-img-top" alt="...">
                         <div class="card-body bg-info">
                             <h5 class="card-title">Sed do eiusmod tempor incididunt ut labore</h5>
@@ -177,7 +177,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card" style="width: 16rem;">
+                    <div class="card">
                         <img src="./assets/img/card4.jpg" class="card-img-top" alt="...">
                         <div class="card-body bg-info">
                             <h5 class="card-title">Ut enim ad minim veniam</h5>
@@ -194,23 +194,25 @@
         <section id="contacto">
             <h3 class="my-5 text-center">CONTACTO</h3>
             <div>
-                <div class="mb-3">
-                    <label for="formGroupExampleInput" class="form-label">Nombre</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre">
-                </div>
-                <div class="mb-3">
-                    <label for="formGroupExampleInput2" class="form-label">Asunto</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Asunto">
-                </div>
-                <div class="mb-3">
-                    <label for="formGroupExampleInput3" class="form-label">Mensaje</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Mensaje">
-                </div>
-
-                <button type="button" class="btn btn-info text-white my-4" data-bs-toggle="tooltip"
-                    data-bs-placement="left" data-bs-title="enviar formulario">
-                    Enviar
-                </button>
+                <form>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre">
+                    </div>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput2" class="form-label">Asunto</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Asunto">
+                    </div>
+                    <div class="mb-3">
+                        <label for="FormControlTextarea1" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+    
+                    <button type="button" class="btn btn-info text-white my-4" data-bs-toggle="tooltip"
+                        data-bs-placement="left" data-bs-title="enviar formulario">
+                        Enviar
+                    </button>
+                </form>
             </div>
         </section>
         <!-- fin formulario -->
